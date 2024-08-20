@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "types": [
+      "babylonjs",
+      "babylonjs-gui",
+      "babylonjs-loaders",
+      "babylonjs-materials",
+      "babylonjs-gltf2interface"
+    ],
+    "skipLibCheck": true,
+    "noImplicitAny": false,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ]
+}
